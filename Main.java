@@ -127,6 +127,17 @@ public class Main {
         If we right click on the files on the right of the panel, we can compare the version from any commit to the
         current version of the file. (we can also do this with git diff -c <commit_id>.)
 
+      */
+
+
+
+         /*
+
+        What if we wanted to get the best of both worlds, and have all the changes from both branches of the history?
+        We can do that with one final command for today: git merge. Git merging lets us take two different branches, and
+        squash their changes together.
+
+        git merge takes another commit id or a branch name, and tries to 'flatten' it into the current file.
 
       */
     }
