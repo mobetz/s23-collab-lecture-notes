@@ -101,5 +101,12 @@ public class Main {
 
 
         */
+        
+        /*
+        When we checkout an old commit, all of our changes between that moment and the previous 'present' disappear.
+
+        At this point, I should create a new name for this new 'branch' of history so that we can find it again.
+
+        'git branch SOME_NAME' will let us create a name for this new branch. 
     }
  }
