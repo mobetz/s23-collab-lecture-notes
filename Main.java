@@ -128,7 +128,14 @@ public class Main {
         current version of the file. (we can also do this with git diff -c <commit_id>.)
 
       */
+     
+        /*
+        When we checkout an old commit, all of our changes between that moment and the previous 'present' disappear.
 
+        At this point, I should create a new name for this new 'branch' of history so that we can find it again.
+
+        'git branch SOME_NAME' will let us create a name for this new branch. 
+        */
 
 
          /*
@@ -140,5 +147,6 @@ public class Main {
         git merge takes another commit id or a branch name, and tries to 'flatten' it into the current file.
 
       */
+   
     }
  }
