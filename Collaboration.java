@@ -41,13 +41,20 @@ public class Collaboration {
         Once we've set up a remote branch, we're able to "push" our changes to the remote branch.
         We can do this by typing "git push" on the command line.
 
-        
+
         We can see that only the branch we pushed is visible to github, and right now github has a linear view of our
         history. However, every commit is visible, and we can see the whole history of our repository.
 
          We can see that every time we commit, the changes don't make it to the server until we push again. In fact,
         in our Log history, we can even see where the "remote" copy of master lives.
 
+        We need to push again to make our changes appear.
+
+
+        When someone else makes a change and pushes it, this likewise won't automatically make that change appear on every
+        other computer that has cloned a repository.
+
+        The 'git pull' command lets us take all the changes from the remote, and add them to our local copy of the repo.
         */
 
     }
