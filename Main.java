@@ -146,6 +146,21 @@ public class Main {
 
         git merge takes another commit id or a branch name, and tries to 'flatten' it into the current file.
 
+         If there are conflicts, we need to open our file and edit it to resolve the two places where both branches
+         made a change in the same place. We can do this manually, or use a merge tool like "Meld" or "KDiff":
+
+
+        If we look at the diff panel for this merge, we can see three panes.
+
+        The panes on the left and right show us both timelines, and the middle shows the final result.
+        Sometimes, you might have to make touch ups here when git can't figure out which copy of the code you want to
+        use. Once everything looks good for us, so we're ready to commit!
+
+        Git is an invaluable tool for helping us keep track of the way our code has changed over time. We can even use
+        branches to carry out different 'experiments' on our code, and only keep those that work out!
+
+        Next class, we'll see how git also has useful features for letting multiple people work together.
+          */
       */
    
     }
